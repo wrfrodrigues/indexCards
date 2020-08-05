@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto","Helvetica Neue","Open sans", "Times New Roman", serif;
+    font-size: 16px;
+}
+
+/*não visitado / visitado*/
+a:link, 
+a:visited {
+    color: #000000;
+}
+/*mouse sobre*/
+a:hover {
+    color: #c1c793;
+}
+/*clicado*/
+a:active {
+    color: #aed1db;
+}
+
+.topo {
+    margin: 1px 1px 5px 1px;
+    padding-right: 5px;
+    width: 100%;
+    color: #024232;
+    font-weight: bolder;
+    
+}
+
+.menu-topo {
+    justify-content: space-between;
+}
+
+.topo ul li a,
+.menu ul li a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-logo {  
+    border-top: 1px solid rgb(206, 204, 204);
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 75px;
+}
+
+.logo>h3 {
+    font-size: 2.5em;
+}
+
+.shopper {
+    color: #222ecc;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.menu {
+    margin: 15px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.menu>ul li a:hover {
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.news {
+    /*criar um ticker de noticias - fluindo na horizontal*/
+    width: 300px;
+}
+
+.clear {
+    clear: both;
+}
+
+.parallax1{ 
+    margin: 0 auto;
+    padding: 100px 0;
+    background-image: url('../img/business.jpg');
+    width: 100%; 
+    height: 80vh;
+    text-indent: -3000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card-clientes {
+    margin-top: 5px;    
+}
+
+.card-header { 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(6, 22, 117);
+    height: 35px;
+    align-items: center;
+}
+
+.card-header>p,
+.card-header>a {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+.card-text {
+    font-size: 10px;
+}
+
+.card-body { border: 1px solid blue;
+    display: flex;    
+}
+
+.card-body>img {
+    float: left;
+    width: 60px;
+    height: 85px;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body>p {
+    float: right;
+    width: 100%;
+    margin: 5px;
+    padding: 0;
+    text-align: justify;
+}
+
+.razaoCliente {  border: 1px solid red;
+    display: flex;
+    margin-top: 3px;
+    justify-content: center;
+    box-shadow: 1px 1px 1px lightslategrey;
+    background-color: mediumseagreen;
+}
